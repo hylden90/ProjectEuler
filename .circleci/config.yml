@@ -9,4 +9,4 @@ jobs:
          command: |
            pwd
            ls -la
-           ll ..
+           ls -la ..
