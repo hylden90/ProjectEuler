@@ -3,6 +3,7 @@ jobs:
  build:
    docker:
      - image: alpine:3.7
+   working_directory: ~/ProjectEuler/projectEuler
    steps:
      - run:
          name: The First Step
