@@ -8,4 +8,5 @@ jobs:
      - run:
          name: Run project's tests
          command: |
+           apt-get install maven
            mvn -B verify
