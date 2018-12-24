@@ -9,4 +9,5 @@ jobs:
          name: Run project's tests
          command: |
            pwd
+           ls -la
            find . -type f -name 'pom.xml'
