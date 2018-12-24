@@ -3,12 +3,10 @@ jobs:
  build:
    docker:
      - image: maven:3.3.9
-   #working_directory: ~/ProjectEuler/
    steps:
      - checkout
      - run:
          name: Run project's tests
          command: |
-           pwd
-           ls -la
-           find . -type f -name 'pom.xml'
+           cd projectEuler
+           mvn -B verify
