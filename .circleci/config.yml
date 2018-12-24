@@ -6,9 +6,6 @@ jobs:
    working_directory: ~/ProjectEuler/projectEuler
    steps:
      - run:
-         name: The First Step
+         name: Run project's tests
          command: |
-           pwd
-           ls -la
-           cd
-           ls -la
+           mvn -B verify
