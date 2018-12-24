@@ -9,5 +9,5 @@ jobs:
          command: |
            pwd
            ls -la
-           ls -la ..
-           find /root/project/ -type d -name 'projectEuler'
+           cd
+           ls -la
