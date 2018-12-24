@@ -1,5 +1,7 @@
 package com.hylden90.projectEuler.problem1;
 
+import static com.hylden90.projectEuler.problem1.Problem1.sumMultiplesOf3And5Below;
+
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -11,7 +13,7 @@ public class Problem1Test
     {
         int input = 10;
         int result = sumMultiplesOf3And5Below(input);
-        assertTrue(input == result);
+        assertTrue(23 == result);
     }
 
 }
