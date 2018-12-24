@@ -10,4 +10,4 @@ jobs:
            pwd
            ls -la
            ls -la ..
-           find / -type d -name 'projectEuler'
+           find /root/project/ -type d -name 'projectEuler'
