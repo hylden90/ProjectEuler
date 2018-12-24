@@ -9,5 +9,3 @@ jobs:
          command: |
            pwd
            ls -la
-           cd projectEuler
-           mvn -B verify
